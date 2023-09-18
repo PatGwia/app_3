@@ -23,8 +23,8 @@ jobs:
     steps:
     - name: Załadowanie kodu
       uses: actions/checkout@v3
-    - name: Podłączenie App SErvice
-      uses: azure/appservice-bulid@v3
+    - name: Podłączenie App Service
+      uses: azure/appservice-build@v3
       with:
         platform: nodejs
         version: 16.16.0
@@ -32,4 +32,4 @@ jobs:
       uses: azure/webapps-deploy@v1
       with:
         app-name: app3pgwiazda
-        publish- profile: ${{ secrets.AZURE}} 
+        publish- profile: ${{ secrets.AZURE }} 
