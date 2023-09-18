@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Załadowanie kodu
+    - name: Załadowanie kodu v2
       uses: actions/checkout@v3
     - name: Podłączenie Node.js
       uses: actions/setup-node@v3
