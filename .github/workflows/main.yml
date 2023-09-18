@@ -32,4 +32,4 @@ jobs:
       uses: azure/webapps-deploy@v1
       with:
         app-name: app3pgwiazda
-        publish- profile: ${{ secrets.AZURE }} 
+        publish-profile: ${{ secrets.AZURE }} 
